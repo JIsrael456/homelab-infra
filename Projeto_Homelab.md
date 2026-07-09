@@ -4,11 +4,11 @@ Projeto Homelab
 
 Objetivo:
 Criar um ambiente corporativo completo em laboratório, com Active Directory, Windows Server, Linux, Docker, banco de dados, automações em PowerShell e Shell Script, integração com Google Cloud e dashboards em Power BI.
-
 ```
 homelab-infra
 │
 ├── README.md
+├── Empresa.md
 │
 ├── docs
 │   ├── Arquitetura
@@ -22,61 +22,25 @@ homelab-infra
 ├── fase-03-windows-client
 ├── fase-04-linux
 ├── fase-05-docker
-├── fase-06-database
-├── fase-07-automacao
-├── fase-08-cloud
-├── fase-09-monitoramento
-└── fase-10-dashboard
+├── fase-06-fase-06-banco-de-dados
+├── fase-07-powershell
+├── fase-08-shell
+├── fase-09-google-cloud
+├── fase-10-powerbi
+└── fase-11-monitoramento
 
-JI-Tech-Homelab
-├── 📁 01-Windows-Server
-│   ├── Active Directory
-│   ├── DNS
-│   ├── DHCP
-│   ├── GPO
-│   └── Prints
-├── 📁 02-Windows-11
-│   ├── Entrada no domínio
-│   ├── GPO aplicada
-│   └── Usuários
-├── 📁 03-Linux
-│   ├── SSH
-│   ├── Firewall
-│   ├── Docker
-│   └── Scripts
-├── 📁 04-Docker
-│   ├── PostgreSQL
-│   ├── Grafana
-│   ├── Wiki.js
-│   └── Portainer
-├── 📁 05-Banco-de-Dados
-│   ├── Modelo ER
-│   ├── Scripts SQL
-│   └── Dados fictícios
-├── 📁 06-PowerShell
-│   ├── Criar usuários
-│   ├── Desabilitar usuários
-│   └── Relatórios
-├── 📁 07-Shell-Script
-│   ├── Backup
-│   ├── Limpeza de logs
-│   └── Monitoramento
-├── 📁 08-Google-Cloud
-│   ├── Storage
-│   ├── IAM
-│   └── Backup
-├── 📁 09-Power-BI
-│   ├── Dashboard de chamados
-│   ├── Dashboard de inventário
-│   └── Dashboard de usuários
-└── 📁 Documentação
-    ├── Arquitetura
-    ├── Diagrama da rede
-    ├── Plano de recuperação
-    └── Manual do ambiente
-└── 📁 Documentação
-    ├── Arquitetura
-    ├── Diagrama da rede
-    ├── Plano de recuperação
-    └── Manual do ambiente
+Descrição das fases
+
+Pasta	Conteúdo
+fase-01-rede	Planejamento de rede, IPs, DNS, gateway
+fase-02-windows-server	Active Directory, DNS, DHCP, GPO, usuários e grupos
+fase-03-windows-client	Entrada no domínio, testes de login e GPO
+fase-04-linux	SSH, Apache/Nginx, firewall, usuários e permissões
+fase-05-docker	PostgreSQL, Grafana, Portainer e Nginx em containers
+fase-06-banco-de-dados	Modelagem, scripts SQL, tabelas e consultas
+fase-07-powershell	Scripts de administração do ambiente Windows
+fase-08-shell	Scripts de administração do ambiente Linux
+fase-09-google-cloud	Cloud Storage, IAM, Compute Engine e backup
+fase-10-powerbi	Dashboards de inventário, chamados e usuários
+fase-11-monitoramento	Grafana, Prometheus e alertas
 ...
