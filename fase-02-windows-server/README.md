@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Implantar o servidor principal da empresa.
+Implantar o servidor principal responsável pela autenticação e gerenciamento dos recursos da empresa.
 
 ## Tecnologias
 
@@ -17,12 +17,16 @@ Implantar o servidor principal da empresa.
 - [ ] Instalar Windows Server
 - [ ] Configurar IP fixo
 - [ ] Instalar Active Directory
-- [ ] Criar domínio
-- [ ] Criar usuários
-- [ ] Criar grupos
+- [ ] Promover servidor a Controlador de Domínio
+- [ ] Criar domínio (jitech.local)
+- [ ] Configurar DNS
+- [ ] Configurar DHCP
 - [ ] Criar OUs
+- [ ] Criar grupos
+- [ ] Criar usuários
 - [ ] Criar compartilhamentos
+- [ ] Criar GPOs
 
 ## Resultado esperado
 
-Todos os computadores da empresa poderão autenticar usuários pelo Active Directory.
+Todos os computadores poderão autenticar usuários utilizando o Active Directory.
