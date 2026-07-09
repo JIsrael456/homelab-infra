@@ -1,0 +1,1 @@
+A JI Tech Solutions possui 50 colaboradores distribuídos entre RH, Financeiro, Comercial, Diretoria e TI. Toda a autenticação é feita pelo Active Directory. Os serviços internos são hospedados em Linux, o banco de dados utiliza PostgreSQL, os backups são enviados ao Google Cloud Storage e a gestão ocorre por dashboards em Power BI.
