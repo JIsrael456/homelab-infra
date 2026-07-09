@@ -6,6 +6,28 @@ Objetivo:
 Criar um ambiente corporativo completo em laboratório, com Active Directory, Windows Server, Linux, Docker, banco de dados, automações em PowerShell e Shell Script, integração com Google Cloud e dashboards em Power BI.
 
 ```
+homelab-infra
+│
+├── README.md
+│
+├── docs
+│   ├── Arquitetura
+│   ├── Diagrama
+│   ├── Inventário
+│   ├── Plano de Backup
+│   └── Roadmap
+│
+├── fase-01-rede
+├── fase-02-windows-server
+├── fase-03-windows-client
+├── fase-04-linux
+├── fase-05-docker
+├── fase-06-database
+├── fase-07-automacao
+├── fase-08-cloud
+├── fase-09-monitoramento
+└── fase-10-dashboard
+
 JI-Tech-Homelab
 ├── 📁 01-Windows-Server
 │   ├── Active Directory
