@@ -1,15 +1,23 @@
-# Fase 03 - Windows Client
+# Fase 03 - Windows Cliente
 
 ## Objetivo
-Implantar o servidor principal da empresa.
+
+Configurar uma estação de trabalho integrada ao domínio corporativo.
 
 ## Tecnologias
-Windows 11
+
+- Windows 11
+- Active Directory
 
 ## O que será feito
 
-- [ ] Instalar Windows
+- [ ] Instalar Windows 11
+- [ ] Configurar IP
+- [ ] Entrar no domínio
+- [ ] Testar login com usuário do AD
+- [ ] Testar compartilhamentos
+- [ ] Testar políticas de grupo (GPO)
 
 ## Resultado esperado
 
-Todos os computadores da empresa poderão autenticar usuários pelo Active Directory.
+A estação funcionará como um computador corporativo autenticado pelo domínio.
