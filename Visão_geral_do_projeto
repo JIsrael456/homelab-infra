@@ -1,0 +1,23 @@
+                    INTERNET
+                        │
+                Google Cloud Platform
+                        │
+             Backup / Storage / IAM
+                        │
+──────────────────────────────────────────────────
+                Firewall (simulado)
+                        │
+              Rede da Empresa (192.168.10.0/24)
+                        │
+        ┌───────────────┼───────────────┐
+        │               │               │
+ Windows Server     Ubuntu Server    PostgreSQL
+ AD / DNS / DHCP    Docker/API       Banco Dados
+        │               │               │
+        └───────────────┼───────────────┘
+                        │
+               Windows 11 Cliente
+                        │
+              Power BI / Scripts
+                        │
+                 GitHub + Documentação
