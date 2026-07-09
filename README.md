@@ -1,4 +1,4 @@
-# homelab-infra
+# Homelab-infra
 
 Projeto Homelab
 
@@ -16,10 +16,9 @@ Homelab
 ├── PowerBI
 ├── Cloud
 └── Diagramas 
-   └──
-  │
+
   Ferramentas usadas
-  ├──01-Windows-Server-AD
+  ├── 01-Windows-Server-AD
   ├── 02-Linux
   ├── 03-Redes
   ├── 04-Docker
