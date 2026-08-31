@@ -6,7 +6,7 @@ Implantar o servidor principal responsável pela autenticação e gerenciamento 
 
 ## Tecnologias
 
-- Windows Server 2022
+- Windows Server 2025
 - Active Directory
 - DNS
 - DHCP
