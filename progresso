@@ -1,0 +1,40 @@
+# Progresso_do_Homelab
+
+Registro cronológico da implementação da infraestrutura da JI Tech Solutions.
+
+---
+
+## 31/08/2026 — Active Directory
+
+### Implementado
+
+- [x] Windows Server 2025 configurado
+- [x] Active Directory Domain Services instalado
+- [x] Floresta `JTECHLAB` criada
+- [x] Domínio `jtechlab.local` criado
+- [x] Domain Controller `SRVWIN` configurado
+- [x] DNS integrado ao Active Directory
+- [x] Estrutura inicial de OUs criada
+- [x] OUs de TI criadas
+- [x] OUs Administrativas criadas
+- [x] OUs de usuários e computadores criadas
+- [x] Grupos de segurança criados
+- [x] Usuário de teste criado
+- [x] Usuário associado ao grupo `GG-TI`
+- [x] Windows 11 ingressado no domínio
+- [x] Primeira GPO criada
+- [x] GPO aplicada ao usuário
+- [x] GPO validada através do 'gpresult`
+
+### Validações realizadas
+
+```text
+dcdiag
+dcdiag /test:dns
+netdom query fsmo
+nslookup
+whoami
+whoami /groups
+gpupdate /force
+gpresult /r
+
