@@ -27,6 +27,8 @@ Implantar o servidor principal responsável pela autenticação e gerenciamento 
 - [ ] Criar compartilhamentos
 - [ ] Criar GPOs
 
+OUs (Organizational Units) são usadas para organizar objetos do Active Directory, como usuários e computadores. Essa separação permite aplicar GPOs e delegar administração de forma mais controlada. No laboratório, a estrutura foi dividida inicialmente entre áreas como Administrativo e TI, cada uma podendo possuir seus próprios usuários e computadores.
+
 ## Resultado esperado
 
 Todos os computadores poderão autenticar usuários utilizando o Active Directory.
