@@ -32,3 +32,12 @@ servidor SRVWIN passou a atuar como Controlador de Domínio.
 ...
 ![Active Directory](evidências/02-active-directory.png)
 ```
+
+
+## Conceitos aprendidos
+
+- O Active Directory centraliza a autenticação e o gerenciamento de identidades.
+- O domínio `jtechlab.local` permite que os computadores e usuários do laboratório sejam administrados de forma centralizada.
+- O Domain Controller é responsável pelos serviços centrais do domínio.
+- O AD DS utiliza o DNS para localizar serviços e computadores dentro do domínio.
+- Usuários e computadores podem ser organizados em Organizational Units (OUs).
