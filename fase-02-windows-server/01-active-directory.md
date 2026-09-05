@@ -62,13 +62,45 @@ Foi selecionada a opção de criação de uma nova floresta e definido o domíni
 
 O servidor `SRVWIN` foi promovido a **Domain Controller (DC)** do domínio `jtechlab.local`.
 
-A partir desse momento, o servidor passou a fornecer os principais serviços necessários para o funcionamento do domínio, incluindo Active Directory e DNS.
+A partir desse momento, o servidor passou a atuar como Controlador de Domínio do ambiente, fornecendo os serviços de Active Directory e DNS necessários para o funcionamento do domínio.
 
 ### 4. Validação
 
 Após a promoção, foi utilizado o **Active Directory Users and Computers** para verificar se o domínio estava disponível e se os objetos do Active Directory poderiam ser administrados.
 
 O domínio `jtechlab.local` foi identificado corretamente no console administrativo.
+
+## Validação por linha de comando
+
+Foi utilizado o comando abaixo para verificar a identidade do usuário autenticado no domínio:
+
+```cmd
+whoami
+```
+
+O resultado obtido foi:
+
+```text
+jtechlab\jaco
+```
+
+O resultado confirma que o usuário autenticado está associado ao domínio `jtechlab`.
+
+Também foi utilizado o comando:
+
+```powershell
+echo $env:USERDOMAIN
+```
+
+Esse comando exibe o nome do domínio associado à sessão atual do PowerShell.
+
+Resultado obtido:
+
+```text
+JTECHLAB
+```
+
+Essa validação confirma que a sessão atual está associada ao domínio `JTECHLAB`.
 
 ## Resultado
 
