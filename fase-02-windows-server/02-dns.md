@@ -28,3 +28,5 @@ Foi utilizado o comando:
 
 ```powershell
 nslookup srvwin.jtechlab.local
+```
+![nslookup](evidências/04-nslookup-srvwin.png)
