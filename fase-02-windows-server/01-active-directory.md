@@ -28,4 +28,7 @@ servidor SRVWIN passou a atuar como Controlador de Domínio.
 
 ## Evidências
 
+
+...
 ![Active Directory](evidências/02-active-directory.png)
+```
