@@ -31,4 +31,4 @@ OUs (Organizational Units) são usadas para organizar objetos do Active Director
 
 ## Resultado esperado
 
-Todos os computadores poderão autenticar usuários utilizando o Active Directory.
+Ao final desta fase, os computadores do ambiente poderão autenticar usuários utilizando o Active Directory, com usuários, grupos, OUs, DNS e políticas de grupo administrados de forma centralizada.
