@@ -74,3 +74,5 @@ GG-TI
 ## Evidências
 
 ...
+![estrutura-ad](evidências/02-active-directory.png)
+```
