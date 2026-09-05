@@ -14,18 +14,18 @@ Implantar o servidor principal responsável pela autenticação e gerenciamento 
 
 ## O que será feito
 
-- [ ] Instalar Windows Server
-- [ ] Configurar IP fixo
-- [ ] Instalar Active Directory
-- [ ] Promover servidor a Controlador de Domínio
-- [ ] Criar domínio (jitech.local)
-- [ ] Configurar DNS
+- [x] Instalar Windows Server
+- [x] Configurar IP fixo
+- [x] Instalar Active Directory
+- [x] Promover servidor a Controlador de Domínio
+- [x] Criar domínio (jitech.local)
+- [x] Configurar DNS
 - [ ] Configurar DHCP
-- [ ] Criar OUs
-- [ ] Criar grupos
-- [ ] Criar usuários
+- [x] Criar OUs
+- [x] Criar grupos
+- [x] Criar usuários
 - [ ] Criar compartilhamentos
-- [ ] Criar GPOs
+- [x] Criar GPOs
 
 OUs (Organizational Units) são usadas para organizar objetos do Active Directory, como usuários e computadores. Essa separação permite aplicar GPOs e delegar administração de forma mais controlada. No laboratório, a estrutura foi dividida inicialmente entre áreas como Administrativo e TI, cada uma podendo possuir seus próprios usuários e computadores.
 
