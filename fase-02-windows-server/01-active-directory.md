@@ -33,7 +33,6 @@ servidor SRVWIN passou a atuar como Controlador de Domínio.
 ![Active Directory](evidências/02-active-directory.png)
 ```
 
-
 ## Conceitos aprendidos
 
 - O Active Directory centraliza a autenticação e o gerenciamento de identidades.
