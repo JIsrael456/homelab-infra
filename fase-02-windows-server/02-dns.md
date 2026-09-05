@@ -18,6 +18,8 @@ resolução de nomes do domínio `jtechlab.local`.
 - Verificação dos registros DNS
 - Testes de resolução de nomes
 
+![DNS](evidências/03-dns.png)
+
 ## Testes realizados
 
 ### nslookup
