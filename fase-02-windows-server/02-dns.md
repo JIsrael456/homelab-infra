@@ -145,4 +145,4 @@ A imagem abaixo demonstra o serviço DNS configurado no servidor `SRVWIN`, inclu
 
 A imagem abaixo demonstra o teste de resolução do servidor utilizando `nslookup`.
 
-![NSLookup](./evidências/04-nslookup-srwin.png)
+![NSLookup](./evidências/04-nslookup-srvwin.png)
