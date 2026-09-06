@@ -12,7 +12,7 @@ Uma Group Policy Object (GPO) é um conjunto de configurações que pode ser apl
 
 As GPOs podem ser utilizadas para administrar, por exemplo:
 
-- Configurações de segurança
+- Configurações de rede
 - Restrições de acesso
 - Configurações do sistema operacional
 - Configurações de usuários
