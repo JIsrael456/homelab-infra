@@ -194,7 +194,7 @@ A validação da política de computadores ficará pendente até a reconstruçã
 
 A evidência demonstra as GPOs criadas e seus respectivos vínculos com as OUs.
 
-![Group Policy Management](./evidências/06-gpo.png)
+![Group Policy Management](./evidências/06-gpo-management.png)
 
 ### Atualização das políticas
 
