@@ -44,5 +44,5 @@ como aplicada ao usuário `JTECHLAB\jaco`.
 ## Evidências
 
 ...
-![nslookup](evidências/0.png)
+
 ...
