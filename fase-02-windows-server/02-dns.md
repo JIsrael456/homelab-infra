@@ -120,7 +120,36 @@ O serviço DNS foi configurado com sucesso no servidor `SRVWIN`.
 
 A zona `jtechlab.local` foi criada e validada, permitindo a resolução dos nomes utilizados pelo ambiente de laboratório.
 
-A resolução de `srvwin.jtechlab.local` para `192.168.10.10` confirmou o funcionamento básico do DNS.
+A resolução de `srvwin.jtechlab.local` para `192.168.10.10` confirmou o funcionamento básico do DNS. A consulta ao registro SRV `_ldap._tcp.dc._msdcs.jtechlab.local` também confirmou a publicação do serviço LDAP associado ao Controlador de Domínio no DNS.
+
+### Resultado da consulta SRV
+
+A consulta retornou o seguinte registro:
+
+```text
+priority = 0
+weight = 100
+port = 389
+svr hostname = srvwin.jtechlab.local
+```
+
+O registro aponta para o servidor:
+
+```text
+srvwin.jtechlab.local
+```
+
+Que foi resolvido para:
+
+```text
+192.168.10.10
+```
+
+A porta 389 corresponde ao serviço LDAP utilizado pelo Active Directory.
+
+Esse resultado demonstra que o DNS possui registros SRV utilizados para localizar o serviço LDAP do Controlador de Domínio.
+
+> Observação: a primeira tentativa apresentou um timeout de 2 segundos, porém a consulta foi concluída com sucesso logo em seguida e retornou o registro SRV esperado.
 
 ## Conceitos aprendidos
 
@@ -146,3 +175,4 @@ A imagem abaixo demonstra o serviço DNS configurado no servidor `SRVWIN`, inclu
 A imagem abaixo demonstra o teste de resolução do servidor utilizando `nslookup`.
 
 ![NSLookup](./evidências/04-nslookup-srvwin.png)
+![NSLookup-LDAP](./evidências/05-nslookup-srv-ldap.png)
