@@ -12,7 +12,7 @@ Implantar o servidor principal responsável pela autenticação e gerenciamento 
 - DHCP
 - GPO
 
-## O que será feito
+## Atividades
 
 - [x] Instalar Windows Server
 - [x] Configurar IP fixo
@@ -38,4 +38,4 @@ OUs (Organizational Units) são usadas para organizar objetos do Active Director
 
 ## Resultado esperado
 
-Ao final desta fase, os computadores do ambiente poderão autenticar usuários utilizando o Active Directory, com usuários, grupos, OUs, DNS e políticas de grupo administrados de forma centralizada.
+Ao final desta fase, o ambiente possui um Controlador de Domínio Windows Server, domínio jtechlab.local, DNS integrado ao Active Directory, estrutura organizacional de OUs, usuários, grupos e GPOs. As políticas de usuário e computador foram validadas no cliente WS-DSK.
