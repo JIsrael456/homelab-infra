@@ -209,4 +209,7 @@ A evidência demonstra a execução do comando `gpupdate /force`.
 A evidência demonstra o resultado do comando `gpresult /r`, incluindo a aplicação da `GPO - TI - Usuarios` ao usuário `JTECHLAB\jaco`.
 
 ![GPResult](./evidências/09-gpresult-user.png)
+
+O comando gpresult /r também foi utilizado para verificar as políticas aplicadas ao computador WS-DSK. O resultado confirmou a aplicação da GPO - TI - Computadores, além da Default Domain Policy.
+
 ![GPResult](./evidências/10-gpresult-computer.png)
