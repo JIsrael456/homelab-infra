@@ -194,16 +194,19 @@ A validação da política de computadores ficará pendente até a reconstruçã
 
 A evidência demonstra as GPOs criadas e seus respectivos vínculos com as OUs.
 
-![Group Policy Management](./evidências/06-gpo-management.png)
+![Group Policy Management](./evidências/06-gpo-management-computer.png)
+
+![Group Policy Management](./evidências/07-gpo-management-users.png)
 
 ### Atualização das políticas
 
 A evidência demonstra a execução do comando `gpupdate /force`.
 
-![GPUpdate](./evidências/07-gpupdate.png)
+![GPUpdate](./evidências/08-gpupdate.png)
 
 ### Resultado das políticas aplicadas
 
 A evidência demonstra o resultado do comando `gpresult /r`, incluindo a aplicação da `GPO - TI - Usuarios` ao usuário `JTECHLAB\jaco`.
 
-![GPResult](./evidências/08-gpresult.png)
+![GPResult](./evidências/09-gpresult-user.png)
+![GPResult](./evidências/10-gpresult-computer.png)
