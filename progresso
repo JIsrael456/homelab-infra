@@ -1,6 +1,29 @@
-# Progresso_do_Homelab
+# Progresso do Homelab
 
-Registro cronológico da implementação da infraestrutura da JI Tech Solutions.
+Registro cronológico e checklist da implementação da infraestrutura da JI Tech Solutions.
+
+## Painel geral
+
+- **Fases concluídas:** 1 de 11
+- **Progresso por fases:** 9% (arredondado de 1 ÷ 11)
+- **Fases em andamento:** 02 — Windows Server; 03 — Windows Cliente
+- **Próximo passo:** concluir e documentar as entregas das fases 02 e 03 antes de iniciar a fase 04.
+
+> O percentual mede fases integralmente concluídas, não tarefas individuais. O indicador é manual e deve ser atualizado junto com o painel do README. Uma fase só deve ser marcada como concluída quando todos os resultados previstos para ela estiverem implementados, testados e documentados.
+
+## Status das fases
+
+- [x] **Fase 01 — Infraestrutura de Rede:** concluída.
+- [ ] **Fase 02 — Windows Server:** em andamento; AD DS, domínio, DNS integrado, estrutura inicial de OUs, grupos e GPO já foram registrados abaixo. Verifique os itens restantes antes de concluir.
+- [ ] **Fase 03 — Windows Cliente:** em andamento; ingresso no domínio e validação de GPO registrados abaixo. Verifique os itens restantes antes de concluir.
+- [ ] **Fase 04 — Linux:** planejada.
+- [ ] **Fase 05 — Docker:** planejada.
+- [ ] **Fase 06 — Banco de Dados:** planejada.
+- [ ] **Fase 07 — PowerShell:** planejada.
+- [ ] **Fase 08 — Shell Script:** planejada.
+- [ ] **Fase 09 — Google Cloud:** planejada.
+- [ ] **Fase 10 — Power BI:** planejada.
+- [ ] **Fase 11 — Monitoramento:** planejada.
 
 ---
 
@@ -10,9 +33,9 @@ Registro cronológico da implementação da infraestrutura da JI Tech Solutions.
 
 - [x] Windows Server 2025 configurado
 - [x] Active Directory Domain Services instalado
-- [x] Floresta `JTECHLAB` criada
-- [x] Domínio `jtechlab.local` criado
-- [x] Domain Controller `SRVWIN` configurado
+- [x] Floresta JTECHLAB criada
+- [x] Domínio jtechlab.local criado
+- [x] Domain Controller SRVWIN configurado
 - [x] DNS integrado ao Active Directory
 - [x] Estrutura inicial de OUs criada
 - [x] OUs de TI criadas
@@ -20,11 +43,11 @@ Registro cronológico da implementação da infraestrutura da JI Tech Solutions.
 - [x] OUs de usuários e computadores criadas
 - [x] Grupos de segurança criados
 - [x] Usuário de teste criado
-- [x] Usuário associado ao grupo `GG-TI`
+- [x] Usuário associado ao grupo GG-TI
 - [x] Windows 11 ingressado no domínio
 - [x] Primeira GPO criada
 - [x] GPO aplicada ao usuário
-- [x] GPO validada através do 'gpresult`
+- [x] GPO validada através do gpresult
 
 ### Validações realizadas
 
@@ -37,4 +60,18 @@ whoami
 whoami /groups
 gpupdate /force
 gpresult /r
+```
 
+---
+
+## Como atualizar o progresso
+
+1. Confirme o que foi realmente concluído e testado.
+2. Marque uma fase com [x] somente quando todos os resultados previstos para ela estiverem prontos e documentados.
+3. Conte as fases concluídas. Divida esse número por 11 e multiplique por 100.
+4. Atualize o percentual, o número de fases concluídas e o status neste arquivo e na seção Progresso do projeto do README.
+5. Registre evidências, comandos usados, resultados e problemas encontrados na seção cronológica correspondente.
+
+**Exemplo:** 3 fases concluídas ÷ 11 fases no total × 100 = 27,27%, exibido como 27%.
+
+> Por enquanto, o indicador é manual: alterar uma caixa de seleção não atualiza automaticamente o percentual nem o badge. A automação com GitHub Actions pode ser adicionada depois que a lista de tarefas por fase estiver completa e padronizada.
