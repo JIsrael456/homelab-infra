@@ -14,8 +14,8 @@ Registro cronológico e checklist da implementação da infraestrutura da JI Tec
 ## Status das fases
 
 - [x] **Fase 01 — Infraestrutura de Rede:** concluída.
-- [ ] **Fase 02 — Windows Server:** em andamento; AD DS, domínio, DNS integrado, estrutura inicial de OUs, grupos e GPO já foram registrados abaixo. Verifique os itens restantes antes de concluir.
-- [ ] **Fase 03 — Windows Cliente:** em andamento; ingresso no domínio e validação de GPO registrados abaixo. Verifique os itens restantes antes de concluir.
+- [x] **Fase 02 — Windows Server:** concluída.
+- [x] **Fase 03 — Windows Cliente:** concluída.
 - [ ] **Fase 04 — Linux:** planejada.
 - [ ] **Fase 05 — Docker:** planejada.
 - [ ] **Fase 06 — Banco de Dados:** planejada.
