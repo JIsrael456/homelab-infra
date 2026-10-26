@@ -4,9 +4,9 @@ Laboratório pessoal de infraestrutura de TI, construído para simular o ambient
 
 ## Progresso do projeto
 
-![Progresso por fases](https://img.shields.io/badge/Progresso%20por%20fases-9%25-blue?style=for-the-badge)
+![Progresso por fases](https://img.shields.io/badge/Progresso%20por%20fases-27%25-blue?style=for-the-badge)
 
-**1 de 11 fases concluída.** As fases 02 e 03 estão em andamento. O percentual considera somente fases integralmente concluídas — não a quantidade de tarefas individuais.
+**3 de 11 fases concluídas.** As fases 01, 02 e 03 estão marcadas como concluídas. O percentual considera somente fases integralmente concluídas — não a quantidade de tarefas individuais.
 
 > Indicador manual: quando uma fase estiver totalmente concluída e documentada, atualize o percentual, a contagem e o status nesta seção e no arquivo [progresso](./progresso).
 
