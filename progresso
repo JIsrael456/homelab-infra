@@ -4,10 +4,10 @@ Registro cronológico e checklist da implementação da infraestrutura da JI Tec
 
 ## Painel geral
 
-- **Fases concluídas:** 1 de 11
-- **Progresso por fases:** 9% (arredondado de 1 ÷ 11)
-- **Fases em andamento:** 02 — Windows Server; 03 — Windows Cliente
-- **Próximo passo:** concluir e documentar as entregas das fases 02 e 03 antes de iniciar a fase 04.
+- **Fases concluídas:** 3 de 11
+- **Progresso por fases:** 27% (arredondado de 3 ÷ 11)
+- **Fases em andamento:** nenhuma registrada no painel; próximas fases planejadas: 04 — Linux
+- **Próximo passo:** iniciar a fase 04 — Linux e manter os registros e evidências atualizados.
 
 > O percentual mede fases integralmente concluídas, não tarefas individuais. O indicador é manual e deve ser atualizado junto com o painel do README. Uma fase só deve ser marcada como concluída quando todos os resultados previstos para ela estiverem implementados, testados e documentados.
 
