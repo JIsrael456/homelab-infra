@@ -4,8 +4,8 @@ Registro cronológico e checklist da implementação da infraestrutura da JI Tec
 
 ## Painel geral
 
-- **Fases concluídas:** 4 de 11
-- **Progresso por fases:** 36% (arredondado de 3 ÷ 11)
+- **Fases concluídas:** 3 de 11
+- **Progresso por fases:** 27% (arredondado de 3 ÷ 11)
 - **Fases em andamento:** nenhuma registrada no painel; próximas fases planejadas: 04 — Linux
 - **Próximo passo:** iniciar a fase 04 — Linux e manter os registros e evidências atualizados.
 
@@ -16,7 +16,7 @@ Registro cronológico e checklist da implementação da infraestrutura da JI Tec
 - [x] **Fase 01 — Infraestrutura de Rede:** concluída.
 - [x] **Fase 02 — Windows Server:** concluída.
 - [x] **Fase 03 — Windows Cliente:** concluída.
-- [x] **Fase 04 — Linux:** planejada.
+- [ ] **Fase 04 — Linux:** planejada.
 - [ ] **Fase 05 — Docker:** planejada.
 - [ ] **Fase 06 — Banco de Dados:** planejada.
 - [ ] **Fase 07 — PowerShell:** planejada.
