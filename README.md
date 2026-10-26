@@ -13,8 +13,8 @@ Laboratório pessoal de infraestrutura de TI, construído para simular o ambient
 | Fase | Tema | Status |
 |---|---|---|
 | [01](./fase-01-rede) | Infraestrutura de Rede | ✅ Concluída |
-| [02](./fase-02-windows-server) | Windows Server | 🚧 Em andamento |
-| [03](./fase-03-windows-client) | Windows Cliente | 🚧 Em andamento |
+| [02](./fase-02-windows-server) | Windows Server | ✅ Concluída |
+| [03](./fase-03-windows-client) | Windows Cliente | ✅ Concluída |
 | [04](./fase-04-linux) | Linux | ⏳ Planejada |
 | [05](./fase-05-docker) | Docker | ⏳ Planejada |
 | [06](./fase-06-fase-06-banco-de-dados) | Banco de Dados | ⏳ Planejada |
