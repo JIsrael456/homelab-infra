@@ -4,18 +4,19 @@ Registro cronológico e checklist da implementação da infraestrutura da JI Tec
 
 ## Painel geral
 
-- **Fases concluídas:** 3 de 11
-- **Progresso por fases:** 27% (arredondado de 3 ÷ 11)
-- **Fases em andamento:** nenhuma registrada no painel; próximas fases planejadas: 04 — Linux
-- **Próximo passo:** iniciar a fase 04 — Linux e manter os registros e evidências atualizados.
+- **Conclusão integral auditada:** ainda não consolidada.
+- **Histórico:** 3 de 11 fases (27%) foram anteriormente marcadas como concluídas no painel manual; os checklists detalhados mostram pendências.
+- **Implementação principal registrada:** fases 01 e 02.
+- **Revalidação necessária:** fase 03, após reinstalação da estação Windows.
+- **Próximo passo:** revisar DHCP, compartilhamentos, reingresso do cliente e evidências antes de declarar fases integralmente concluídas.
 
-> O percentual mede fases integralmente concluídas, não tarefas individuais. O indicador é manual e deve ser atualizado junto com o painel do README. Uma fase só deve ser marcada como concluída quando todos os resultados previstos para ela estiverem implementados, testados e documentados.
+> O indicador histórico não representa uma medição automática nem certifica a conclusão integral das fases.
 
 ## Status das fases
 
-- [x] **Fase 01 — Infraestrutura de Rede:** concluída.
-- [x] **Fase 02 — Windows Server:** concluída.
-- [x] **Fase 03 — Windows Cliente:** concluída.
+- [ ] **Fase 01 — Infraestrutura de Rede:** implementação principal documentada; DHCP pendente.
+- [ ] **Fase 02 — Windows Server:** AD DS/DNS/GPO documentados; DHCP e compartilhamentos pendentes.
+- [ ] **Fase 03 — Windows Cliente:** ingresso e GPO realizados anteriormente; revalidação pendente após reinstalação.
 - [ ] **Fase 04 — Linux:** planejada.
 - [ ] **Fase 05 — Docker:** planejada.
 - [ ] **Fase 06 — Banco de Dados:** planejada.
@@ -72,6 +73,6 @@ gpresult /r
 4. Atualize o percentual, o número de fases concluídas e o status neste arquivo e na seção Progresso do projeto do README.
 5. Registre evidências, comandos usados, resultados e problemas encontrados na seção cronológica correspondente.
 
-**Exemplo:** 3 fases concluídas ÷ 11 fases no total × 100 = 27,27%, exibido como 27%.
+**Exemplo histórico (não atualizado):** 3 fases declaradas ÷ 11 × 100 = 27,27%. Só restabeleça um percentual de conclusão integral após conferir cada checklist e evidência.
 
 > Por enquanto, o indicador é manual: alterar uma caixa de seleção não atualiza automaticamente o percentual nem o badge. A automação com GitHub Actions pode ser adicionada depois que a lista de tarefas por fase estiver completa e padronizada.
