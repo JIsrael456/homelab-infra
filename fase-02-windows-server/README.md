@@ -18,13 +18,13 @@ Implantar o servidor principal responsável pela autenticação e gerenciamento 
 - [x] Configurar IP fixo
 - [x] Instalar Active Directory
 - [x] Promover servidor a Controlador de Domínio
-- [x] Criar domínio (jitech.local)
+- [x] Criar domínio (`jtechlab.local`)
 - [x] Configurar DNS
-- [ ] Configurar DHCP
+- [ ] Configurar DHCP (pendente)
 - [x] Criar OUs
 - [x] Criar grupos
 - [x] Criar usuários
-- [ ] Criar compartilhamentos
+- [ ] Criar compartilhamentos (pendente)
 - [x] Criar GPOs
 
 OUs (Organizational Units) são usadas para organizar objetos do Active Directory, como usuários e computadores. Essa separação permite aplicar GPOs e delegar administração de forma mais controlada. No laboratório, a estrutura foi dividida inicialmente entre áreas como Administrativo e TI, cada uma podendo possuir seus próprios usuários e computadores.
@@ -35,6 +35,10 @@ OUs (Organizational Units) são usadas para organizar objetos do Active Director
 - [02 - DNS](./02-dns.md)
 - [03 - Estrutura do Active Directory](./03-estrutura-ad.md)
 - [04 - Group Policy (GPO)](./04-gpo.md)
+
+## Situação atual
+
+A implementação do AD DS, DNS, OUs, usuários, grupos e GPOs está documentada. DHCP e compartilhamentos permanecem pendentes. A aplicação de GPO de usuário foi validada; a revalidação da estação após reinstalação é tratada na fase 03.
 
 ## Resultado esperado
 
