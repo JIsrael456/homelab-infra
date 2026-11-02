@@ -16,7 +16,7 @@ Planejar e configurar a infraestrutura de rede utilizada pelo ambiente virtual d
 - Ping
 - NSLookup
 
-## O que será feito
+## Checklist de implementação (registrado)
 
 - [x] Definir arquitetura da rede
 - [x] Criar rede virtual
@@ -28,7 +28,11 @@ Planejar e configurar a infraestrutura de rede utilizada pelo ambiente virtual d
 - [x] Testar conectividade
 - [x] Testar resolução de nomes
 - [x] Documentar topologia
-- [ ] Configurar DHCP
+- [ ] Configurar DHCP (pendente; validar se será necessário no desenho de rede)
+## Situação atual
+
+A configuração e os testes principais da rede estão registrados. A atividade de DHCP continua pendente, portanto a fase ainda não é declarada integralmente concluída nesta revisão.
+
 ## Resultado esperado
 
 Toda a infraestrutura será capaz de se comunicar através da rede interna da empresa.
